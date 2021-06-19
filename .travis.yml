@@ -5,11 +5,11 @@ jdk:
 
 addons:
   sonarcloud:
-    organization: ceciliacal
-    token: 331a1df367982550e16360321497cab14c6a817e
+    organization: gulixciurli
+    token: 7ea17b709914577cbb0048863aff519966af4b07
 
 install: 
   - mvn clean install -q -DskipTests=true 
 
 script:
-  - mvn clean verify sonar:sonar  -Dsonar.projectKey=ceciliacal_bookkeeper 
+  - mvn clean verify sonar:sonar  -Dsonar.projectKey=gulixciurli_bookkeeper2
